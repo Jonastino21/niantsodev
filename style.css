@@ -433,7 +433,9 @@ span {
     #menu-icon{
         display: block;
     }
-
+    .ellipse , .ellipse3 {
+        display:none;
+    }
     .navbar {
         position: absolute;
         top: 100%;
@@ -490,13 +492,20 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+     .ellipse , .ellipse3 {
+        display:none;
+    }
 }
+
 
 
 @media (max-width: 550px) {
     html {
         font-size: 50%;
 
+    }
+     .ellipse , .ellipse3 {
+        display:none;
     }
     .contact form .input-box input {
         width: 100%;
@@ -534,6 +543,9 @@ span {
     .footer p{
         text-align: center;
         margin-top: 2rem;
+    }
+     .ellipse , .ellipse3 {
+        display:none;
     }
 }
 
